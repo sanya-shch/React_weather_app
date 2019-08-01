@@ -1,0 +1,48 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #7fd9ff;
+  background: -moz-linear-gradient(45deg, #7fd9ff 0%, #6a00ff 100%);
+  background: -webkit-gradient(left bottom, right top, color-stop(0%, #7fd9ff), color-stop(100%, #6a00ff));
+  background: -webkit-linear-gradient(45deg, #7fd9ff 0%, #6a00ff 100%);
+  background: -o-linear-gradient(45deg, #7fd9ff 0%, #6a00ff 100%);
+  background: -ms-linear-gradient(45deg, #7fd9ff 0%, #6a00ff 100%);
+  background: linear-gradient(45deg, #7fd9ff 0%, #6a00ff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7fd9ff', endColorstr='#6a00ff', GradientType=1 );
+}
+
+.App-main {
+  min-height: 50vh;
+  width: 100vh;
+  -webkit-box-shadow: 0px 0px 36px -8px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 36px -8px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 36px -8px rgba(0,0,0,0.75);
+  color: white;
+}
+
+.App-info {
+  background-color: #282c34;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.App-weather-form {
+  min-height: 25%;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: stretch;
+}
+
+.App-weather-info {
+  min-height: 75%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
